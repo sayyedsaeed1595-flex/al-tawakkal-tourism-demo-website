@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-label="Al-Tawakkal Tourism mark">
+  <rect width="64" height="64" rx="12" fill="#1B1A17"/>
+  <g stroke="#C9A868" stroke-width="1.6" opacity="0.9">
+    <path d="M32 10 35.3 20 45 23 35.3 26 32 36 28.7 26 19 23 28.7 20Z"/>
+    <circle cx="32" cy="23" r="6.4"/>
+  </g>
+  <path d="M16 48h32" stroke="#C9A868" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M22 54h20" stroke="#C9A868" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="32" cy="43" r="2.4" fill="#C9A868"/>
+</svg>

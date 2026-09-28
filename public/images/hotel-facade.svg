@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none" role="img" aria-label="Stylised cream coloured hotel facade with arched windows">
+  <defs>
+    <linearGradient id="htSky" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCF8F1"/>
+      <stop offset="1" stop-color="#F4EBDA"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#htSky)"/>
+  <g opacity="0.45" fill="#EDE2CB">
+    <circle cx="648" cy="120" r="52"/>
+  </g>
+
+  <!-- Main block -->
+  <rect x="90" y="196" width="620" height="316" fill="#F8F2E7"/>
+  <rect x="90" y="196" width="620" height="16" fill="#E7DAC0"/>
+  <rect x="72" y="176" width="656" height="24" rx="3" fill="#EFE5D2"/>
+  <rect x="90" y="170" width="620" height="8" fill="#DFCEAC"/>
+
+  <!-- Central pavilion with pediment -->
+  <rect x="312" y="236" width="176" height="276" fill="#FBF7F0"/>
+  <path d="M292 240 400 150 508 240Z" fill="#EFE5D2"/>
+  <path d="M292 240 400 150 508 240" fill="none" stroke="#DFCEAC" stroke-width="1.6"/>
+  <rect x="292" y="240" width="216" height="12" fill="#E7DAC0"/>
+
+  <!-- Sign plaque -->
+  <rect x="356" y="196" width="88" height="28" rx="3" fill="#2A2823"/>
+  <g stroke="#C9A868" stroke-width="1.6" stroke-linecap="round">
+    <path d="M370 210h10M384 205v10M398 210h10"/>
+  </g>
+
+  <!-- Arched windows -->
+  <g fill="#EFE7D7" stroke="#E0D0AE" stroke-width="1.3">
+    <path d="M130 420v-92c0-24 10-40 24-50c14 10 24 26 24 50v92Z"/>
+    <path d="M226 420v-92c0-24 10-40 24-50c14 10 24 26 24 50v92Z"/>
+    <path d="M526 420v-92c0-24 10-40 24-50c14 10 24 26 24 50v92Z"/>
+    <path d="M622 420v-92c0-24 10-40 24-50c14 10 24 26 24 50v92Z"/>
+    <path d="M368 420v-70c0-20 9-34 20-43c11 9 20 23 20 43v70Z"/>
+    <path d="M412 420v-70c0-20 9-34 20-43c11 9 20 23 20 43v70Z"/>
+  </g>
+  <!-- Upper balustrade windows -->
+  <g fill="#EFE7D7" stroke="#E0D0AE" stroke-width="1.2">
+    <rect x="140" y="266" width="42" height="58" rx="3"/>
+    <rect x="232" y="266" width="42" height="58" rx="3"/>
+    <rect x="526" y="266" width="42" height="58" rx="3"/>
+    <rect x="618" y="266" width="42" height="58" rx="3"/>
+    <rect x="356" y="272" width="34" height="48" rx="3"/>
+    <rect x="410" y="272" width="34" height="48" rx="3"/>
+  </g>
+  <g stroke="#C9B58A" stroke-width="1" opacity="0.7">
+    <path d="M140 282h42M140 298h42M140 314h42"/>
+    <path d="M232 282h42M232 298h42M232 314h42"/>
+    <path d="M526 282h42M526 298h42M526 314h42"/>
+    <path d="M618 282h42M618 298h42M618 314h42"/>
+  </g>
+
+  <!-- Entrance -->
+  <path d="M368 512v-46c0-16 12-28 32-28s32 12 32 28v46Z" fill="#E9DCC0" stroke="#DCCBA6" stroke-width="1.4"/>
+  <path d="M400 438v74" stroke="#DCCBA6" stroke-width="1.2"/>
+  <circle cx="392" cy="474" r="2.6" fill="#B08A4A"/>
+  <circle cx="408" cy="474" r="2.6" fill="#B08A4A"/>
+
+  <!-- Colonnade -->
+  <g fill="#FCF8F1" stroke="#E0D0AE" stroke-width="1.3">
+    <path d="M112 512v-56c0-24 10-40 24-50c14 10 24 26 24 50v56Z"/>
+    <path d="M196 512v-56c0-24 10-40 24-50c14 10 24 26 24 50v56Z"/>
+    <path d="M556 512v-56c0-24 10-40 24-50c14 10 24 26 24 50v56Z"/>
+    <path d="M640 512v-56c0-24 10-40 24-50c14 10 24 26 24 50v56Z"/>
+  </g>
+  <rect x="90" y="512" width="620" height="14" fill="#E7DAC0"/>
+
+  <!-- Forecourt -->
+  <rect x="0" y="526" width="800" height="74" fill="#F1E8D7"/>
+  <g stroke="#E4D9C0" stroke-width="1.2">
+    <path d="M0 552h800M0 578h800"/>
+    <path d="M120 526v74M300 526v74M500 526v74M700 526v74"/>
+  </g>
+  <g fill="#B08A4A" opacity="0.35">
+    <rect x="60" y="536" width="10" height="46" rx="2"/>
+    <rect x="730" y="536" width="10" height="46" rx="2"/>
+  </g>
+  <g fill="#E4D3AA" stroke="#B08A4A" stroke-width="1.2" stroke-opacity="0.4">
+    <path d="M46 528h38l-5 20H51Z"/>
+    <path d="M716 528h38l-5 20h-28Z"/>
+  </g>
+</svg>

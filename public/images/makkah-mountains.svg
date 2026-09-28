@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-label="Stylised layered mountains and arcades of Makkah in warm sand tones">
+  <defs>
+    <linearGradient id="mkSky" x1="600" y1="0" x2="600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCF8F0"/>
+      <stop offset="1" stop-color="#F4EBD9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#mkSky)"/>
+  <g opacity="0.5" fill="#E8DCC2">
+    <circle cx="960" cy="96" r="46"/>
+  </g>
+  <path d="M0 250 90 196 168 236 258 168 342 226 430 178 520 232 612 182 706 228 800 174 890 224 982 184 1074 230 1200 190V360H0Z" fill="#EFE4CE"/>
+  <path d="M0 292 96 244 190 286 286 236 380 288 476 240 570 288 664 244 762 290 858 242 956 288 1054 246 1200 292V360H0Z" fill="#E9DDC3"/>
+  <g fill="#FBF6EC" stroke="#E0D0AE" stroke-width="1.4">
+    <path d="M-10 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M78 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M166 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M254 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M342 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M430 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M518 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M606 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M694 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M782 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M870 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M958 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M1046 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+    <path d="M1134 300V236c0-22 9-38 21-48c12 10 21 26 21 48v64Z"/>
+  </g>
+  <rect x="0" y="300" width="1200" height="8" fill="#E0D0AE" opacity="0.7"/>
+  <rect x="0" y="308" width="1200" height="52" fill="#F1E8D7"/>
+  <g stroke="#E4D9C0" stroke-width="1.2">
+    <path d="M0 330h1200M0 350h1200"/>
+    <path d="M120 308v52M300 308v52M480 308v52M660 308v52M840 308v52M1020 308v52"/>
+  </g>
+</svg>

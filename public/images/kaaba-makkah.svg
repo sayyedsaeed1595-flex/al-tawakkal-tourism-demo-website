@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000" fill="none" role="img" aria-label="Illustration of the Kaaba within a cream coloured arcaded courtyard in Makkah">
+  <defs>
+    <linearGradient id="sky" x1="450" y1="300" x2="450" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDFAF3"/>
+      <stop offset="0.55" stop-color="#F8F0E0"/>
+      <stop offset="1" stop-color="#F1E5D0"/>
+    </linearGradient>
+    <linearGradient id="plaza" x1="450" y1="660" x2="450" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0E5D2"/>
+      <stop offset="1" stop-color="#FBF6EB"/>
+    </linearGradient>
+    <linearGradient id="kiswahFront" x1="322" y1="500" x2="578" y2="790" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E2A23"/>
+      <stop offset="1" stop-color="#1C1A16"/>
+    </linearGradient>
+    <linearGradient id="kiswahSide" x1="578" y1="464" x2="630" y2="754" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#211E19"/>
+      <stop offset="1" stop-color="#141310"/>
+    </linearGradient>
+    <linearGradient id="bandGold" x1="322" y1="544" x2="578" y2="608" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D0B076"/>
+      <stop offset="0.45" stop-color="#B08A4A"/>
+      <stop offset="1" stop-color="#96742F"/>
+    </linearGradient>
+    <clipPath id="archClip">
+      <path d="M78 1000V352C78 186 288 66 450 44C612 66 822 186 822 352V1000Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="1000" fill="#FBF6EC"/>
+
+  <!-- Arched aperture: outer frame band, then the scene clipped inside -->
+  <path
+    d="M58 1000V340C58 166 274 40 450 16C626 40 842 166 842 340V1000ZM78 1000V352C78 186 288 66 450 44C612 66 822 186 822 352V1000Z"
+    fill="#EFE4CE"
+    fill-rule="evenodd"
+  />
+
+  <g clip-path="url(#archClip)">
+    <rect x="78" y="30" width="744" height="970" fill="url(#sky)"/>
+
+    <!-- Upper arcade -->
+    <g>
+      <rect x="78" y="30" width="744" height="284" fill="#F1E8D7"/>
+      <g fill="#FCF8F1" stroke="#DFCFAD" stroke-width="1.6">
+        <path d="M90 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M178 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M266 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M354 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M442 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M530 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M618 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+        <path d="M706 300V226c0-30 12-52 31-64c19 12 31 34 31 64v74Z"/>
+      </g>
+      <rect x="78" y="300" width="744" height="15" rx="2" fill="#E3D4B4"/>
+      <rect x="78" y="315" width="744" height="5" rx="2" fill="#D8C6A2" opacity="0.75"/>
+    </g>
+
+    <!-- Faint geometric medallion behind the Kaaba -->
+    <g stroke="#B08A4A" fill="none" opacity="0.16">
+      <path d="M450 336 464.7 365.6 496 380.3 464.7 395 450 424.6 435.3 395 404 380.3 435.3 365.6Z"/>
+      <path d="M450 336 464.7 365.6 496 380.3 464.7 395 450 424.6 435.3 395 404 380.3 435.3 365.6Z" transform="rotate(45 450 380)"/>
+      <circle cx="450" cy="380" r="58" stroke-width="1.2"/>
+      <circle cx="450" cy="380" r="30" stroke-width="1"/>
+    </g>
+
+    <!-- Distant minarets -->
+    <g>
+      <rect x="196" y="318" width="16" height="352" rx="2" fill="#E7D9B8"/>
+      <rect x="190" y="470" width="28" height="11" rx="2" fill="#D9C6A0"/>
+      <rect x="192" y="292" width="24" height="30" rx="3" fill="#DFCDAA"/>
+      <path d="M204 292c-16 0-20-14-20-14 9 2 12-5 12-5 3 9 7 7 7 7 0 0 5 3 1 12Z" fill="#CFB88C"/>
+      <rect x="201" y="248" width="6" height="46" rx="3" fill="#CFB88C"/>
+      <circle cx="204" cy="243" r="5" fill="#C0A377"/>
+      <rect x="694" y="336" width="15" height="334" rx="2" fill="#E7D9B8"/>
+      <rect x="688" y="470" width="27" height="10" rx="2" fill="#D9C6A0"/>
+      <rect x="690" y="310" width="23" height="29" rx="3" fill="#DFCDAA"/>
+      <path d="M701.5 310c-15 0-19-13-19-13 9 2 11-4 11-4 3 8 7 6 7 6 0 0 5 3 1 11Z" fill="#CFB88C"/>
+      <rect x="698.5" y="272" width="6" height="42" rx="3" fill="#CFB88C"/>
+      <circle cx="701.5" cy="268" r="4.4" fill="#C0A377"/>
+    </g>
+
+    <!-- Layered hills -->
+    <path d="M78 520c62-56 134-82 200-60 44 15 74 44 116 44s76-28 126-44c76-24 160 6 224 60v70H78Z" fill="#EADCBE"/>
+    <path d="M78 566c76-46 152-56 220-32 56 20 92 38 154 38s100-20 156-40c68-24 144-12 214 34v52H78Z" fill="#E5D7BA"/>
+    <path d="M78 612c88-30 178-34 260-14 60 15 100 22 156 14 74-11 150-6 212 22v30H78Z" fill="#E0D0AF"/>
+
+    <!-- Courtyard marble -->
+    <rect x="78" y="664" width="744" height="336" fill="url(#plaza)"/>
+    <g stroke="#E0D2B4" stroke-width="1.2" opacity="0.95">
+      <path d="M450 664 96 1000M450 664 268 1000M450 664 396 1000M450 664 504 1000M450 664 632 1000M450 664 804 1000"/>
+      <path d="M78 720h744M78 776h744M78 838h744M78 906h744M78 978h744"/>
+    </g>
+
+    <!-- Tawaf paving -->
+    <ellipse cx="450" cy="776" rx="344" ry="94" fill="#F2E7D2" opacity="0.85"/>
+    <ellipse cx="450" cy="776" rx="344" ry="94" stroke="#DCCBA8" stroke-width="1.6"/>
+    <ellipse cx="450" cy="776" rx="258" ry="68" stroke="#DCCBA8" stroke-width="1.4" opacity="0.9"/>
+    <ellipse cx="450" cy="776" rx="344" ry="94" stroke="#C0A97C" stroke-width="1" opacity="0.5" stroke-dasharray="5 9"/>
+
+    <!-- Distant lamp posts -->
+    <g opacity="0.85">
+      <g>
+        <rect x="166" y="612" width="8" height="230" rx="2" fill="#B08A4A" opacity="0.55"/>
+        <path d="M170 612h-15l6-12h9Z" fill="#B08A4A" opacity="0.55"/>
+        <path d="M155 584h30l-5 28h-20Z" fill="#DCCBA2" opacity="0.7" stroke="#B08A4A" stroke-width="1" stroke-opacity="0.5"/>
+      </g>
+      <g>
+        <rect x="746" y="604" width="8" height="238" rx="2" fill="#B08A4A" opacity="0.55"/>
+        <path d="M750 604h-15l6-12h9Z" fill="#B08A4A" opacity="0.55"/>
+        <path d="M735 576h30l-5 28h-20Z" fill="#DCCBA2" opacity="0.7" stroke="#B08A4A" stroke-width="1" stroke-opacity="0.5"/>
+      </g>
+    </g>
+
+    <!-- Kaaba -->
+    <g>
+      <ellipse cx="472" cy="790" rx="198" ry="30" fill="#DFCFAE" opacity="0.9"/>
+
+      <!-- right (receding) face -->
+      <path d="M578 500 630 464v290l-52 36Z" fill="url(#kiswahSide)"/>
+      <path d="M578 546 630 510v60l-52 36Z" fill="#A5823F"/>
+      <path d="M578 546 630 510" stroke="#DCBF84" stroke-width="1.6" opacity="0.75"/>
+      <path d="M578 606 630 570" stroke="#DCBF84" stroke-width="1.3" opacity="0.55"/>
+
+      <!-- roof -->
+      <path d="M322 500 578 500 630 464 374 464Z" fill="#3A362D"/>
+      <path d="M322 500 578 500 630 464 374 464Z" fill="none" stroke="#4B4437" stroke-width="1.6"/>
+      <path d="M322 518 578 518 630 482 374 482Z" fill="#A5823F" opacity="0.9"/>
+      <path d="M322 518 578 518" stroke="#DCBF84" stroke-width="1.4" opacity="0.65"/>
+
+      <!-- front face -->
+      <path d="M322 500h256v290H322Z" fill="url(#kiswahFront)"/>
+      <path d="M322 500h256v290H322Z" fill="none" stroke="#12110D" stroke-width="1.4"/>
+
+      <!-- gold kiswah band -->
+      <rect x="322" y="546" width="256" height="62" fill="url(#bandGold)"/>
+      <g stroke="#7A5C26" stroke-width="0.9" opacity="0.5">
+        <path d="M322 562h256M322 592h256"/>
+        <path d="M350 546v62M378 546v62M406 546v62M434 546v62M462 546v62M490 546v62M518 546v62M546 546v62M574 546v62"/>
+      </g>
+      <g fill="none" stroke="#EAD5A4" stroke-width="1.1" opacity="0.7">
+        <path d="M333 577h12M359 577h12M387 577h12M415 577h12M443 577h12M471 577h12M499 577h12M527 577h12M555 577h12"/>
+      </g>
+
+      <!-- lower embroidery -->
+      <path d="M322 758h256" stroke="#A5823F" stroke-width="1.5" opacity="0.7"/>
+      <path d="M356 614v144M544 614v144" stroke="#403A2F" stroke-width="1.1" opacity="0.55"/>
+
+      <!-- door -->
+      <g>
+        <path d="M468 722v-76c0-15 9-25 22-25s22 10 22 25v76Z" fill="#A5823F"/>
+        <path d="M468 722v-76c0-15 9-25 22-25s22 10 22 25v76Z" fill="none" stroke="#66491B" stroke-width="1.5"/>
+        <path d="M477 715v-66c0-10 6-17 13-17s13 7 13 17v66Z" fill="#C6A662"/>
+        <path d="M477 665h26" stroke="#7A5C26" stroke-width="1.3" opacity="0.8"/>
+        <path d="M486 702h9" stroke="#66491B" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+        <path d="M460 722h60v7h-60Z" fill="#8A6A2C"/>
+      </g>
+    </g>
+
+    <!-- Foreground lamp posts -->
+    <g>
+      <g>
+        <rect x="242" y="700" width="9" height="252" rx="2" fill="#B08A4A"/>
+        <circle cx="246.5" cy="952" r="8" fill="#8A6A2C"/>
+        <path d="M246.5 700h-18l7-14h11Z" fill="#B08A4A"/>
+        <path d="M228.5 664h36l-6 34h-24Z" fill="#E8D6A8" stroke="#B08A4A" stroke-width="1.5"/>
+        <path d="M236 669v24M246.5 669v24M257 669v24" stroke="#B08A4A" stroke-width="1" opacity="0.6"/>
+        <circle cx="246.5" cy="655" r="5" fill="#DDBE7C"/>
+      </g>
+      <g>
+        <rect x="696" y="690" width="9" height="262" rx="2" fill="#B08A4A"/>
+        <circle cx="700.5" cy="952" r="8" fill="#8A6A2C"/>
+        <path d="M700.5 690h-18l7-14h11Z" fill="#B08A4A"/>
+        <path d="M682.5 654h36l-6 34h-24Z" fill="#E8D6A8" stroke="#B08A4A" stroke-width="1.5"/>
+        <path d="M690 659v24M700.5 659v24M711 659v24" stroke="#B08A4A" stroke-width="1" opacity="0.6"/>
+        <circle cx="700.5" cy="645" r="5" fill="#DDBE7C"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Arch outlines -->
+  <path d="M78 1000V352C78 186 288 66 450 44C612 66 822 186 822 352V1000" fill="none" stroke="#D5C09A" stroke-width="2.2"/>
+  <path d="M92 1000V358C92 198 298 84 450 62C602 84 808 198 808 358V1000" fill="none" stroke="#E7DCC2" stroke-width="1.2"/>
+
+  <!-- Corner medallions -->
+  <g stroke="#C6AE7E" stroke-width="1" opacity="0.5" fill="none">
+    <path d="M32 848 36 862 50 866 36 870 32 884 28 870 14 866 28 862Z"/>
+    <path d="M868 848 872 862 886 866 872 870 868 884 864 870 850 866 864 862Z"/>
+  </g>
+</svg>

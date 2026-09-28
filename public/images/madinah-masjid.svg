@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-label="Stylised courtyard arcade with a green dome, evoking Madinah">
+  <defs>
+    <linearGradient id="mdSky" x1="600" y1="0" x2="600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCF8F1"/>
+      <stop offset="1" stop-color="#F5EDDE"/>
+    </linearGradient>
+    <linearGradient id="mdDome" x1="600" y1="120" x2="600" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#96A187"/>
+      <stop offset="1" stop-color="#6F7C63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#mdSky)"/>
+
+  <!-- Minarets -->
+  <g>
+    <rect x="118" y="112" width="22" height="248" rx="3" fill="#EFE4D0"/>
+    <rect x="110" y="212" width="38" height="12" rx="2" fill="#E2D3B3"/>
+    <rect x="113" y="86" width="32" height="28" rx="4" fill="#F3EADA"/>
+    <path d="M129 86c-18 0-22-16-22-16 11 3 14-6 14-6 4 11 8 8 8 8 0 0 6 3 0 14Z" fill="#8C9A7E"/>
+    <rect x="126" y="40" width="7" height="48" rx="3.5" fill="#B08A4A"/>
+    <circle cx="129.5" cy="35" r="5" fill="#C9A868"/>
+    <rect x="1060" y="112" width="22" height="248" rx="3" fill="#EFE4D0"/>
+    <rect x="1052" y="212" width="38" height="12" rx="2" fill="#E2D3B3"/>
+    <rect x="1055" y="86" width="32" height="28" rx="4" fill="#F3EADA"/>
+    <path d="M1071 86c-18 0-22-16-22-16 11 3 14-6 14-6 4 11 8 8 8 8 0 0 6 3 0 14Z" fill="#8C9A7E"/>
+    <rect x="1067.5" y="40" width="7" height="48" rx="3.5" fill="#B08A4A"/>
+    <circle cx="1071" cy="35" r="5" fill="#C9A868"/>
+  </g>
+
+  <!-- Mosque body -->
+  <rect x="230" y="216" width="740" height="144" fill="#F7F0E3"/>
+  <rect x="230" y="216" width="740" height="10" fill="#E6D9BC"/>
+  <rect x="230" y="348" width="740" height="12" fill="#E6D9BC"/>
+
+  <!-- Dome on drum -->
+  <rect x="500" y="192" width="200" height="36" fill="#F1E7D6"/>
+  <path d="M500 196C500 152 542 120 600 120c58 0 100 32 100 76 0 6-4 10-10 10H510c-6 0-10-4-10-10Z" fill="url(#mdDome)"/>
+  <path d="M500 196C500 152 542 120 600 120c58 0 100 32 100 76" fill="none" stroke="#5E6B53" stroke-width="1.2" opacity="0.5"/>
+  <g stroke="#7E8C74" stroke-width="1" opacity="0.55">
+    <path d="M520 190c6-34 34-58 62-64M548 192c4-30 22-50 44-56M600 192v-70M652 192c-4-30-22-50-44-56M680 190c-6-34-34-58-62-64"/>
+  </g>
+  <rect x="595" y="76" width="10" height="46" rx="5" fill="#B08A4A"/>
+  <circle cx="600" cy="72" r="10" fill="#C9A868"/>
+  <path d="M600 56c-7 6-8 10-4 13 3 2 8 0 10-3" fill="none" stroke="#B08A4A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Arcade of pointed arches -->
+  <g fill="#FCF8F1" stroke="#E0D0AE" stroke-width="1.4">
+    <path d="M262 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M350 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M438 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M526 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M628 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M716 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M804 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+    <path d="M892 348v-58c0-26 10-44 23-55c13 11 23 29 23 55v58Z"/>
+  </g>
+
+  <!-- Courtyard -->
+  <rect x="0" y="360" width="1200" height="60" fill="#F1E8D7"/>
+  <g stroke="#E4D9C0" stroke-width="1.2">
+    <path d="M0 380h1200M0 402h1200"/>
+    <path d="M160 360v60M400 360v60M640 360v60M880 360v60M1120 360v60"/>
+  </g>
+  <rect x="0" y="352" width="1200" height="8" fill="#E0D0AE" opacity="0.7"/>
+</svg>
